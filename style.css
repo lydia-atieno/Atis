@@ -31,7 +31,7 @@
 #header .brand{
     display: flex;
     flex-direction: row;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 #header img{
     margin-top: 5px;
@@ -189,7 +189,7 @@
     background-color: rgb(196, 14, 111);
     color: pink;
     font-size: 10px;
-    height: 460vh; 
+    height: 410vh; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 
