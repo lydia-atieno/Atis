@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 105%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: ;
+}
+/*Header section*/
+#header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    height: auto;
+    width: 100vw;
+    
+}
+#header .header{
+    max-height: 10vh;
+    background-color: rgb(187, 66, 107);
+    background: linear-gradient(45deg, rgb(196, 14, 111),pink,rgb(196, 14, 111),pink);
+    border-radius: 0 0 80% 80%/0 0 50% 50%;
+}
+#header .brand{
+    display: flex;
+    flex-direction: row;
+}
+#header img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#header ul li .img2{
+    align-items: ;
+    margin-top: 50px;
+    display: flex;
+}
+#header ul li .img3{
+    margin-right: 20px;
+    margin-left: 50px;
+}
+#header ul li .img4{
+    margin-right: 20px;
+}
+#header .brand h1{
+    margin-left: 5px;
+    font-family: harrington;
+    font-size: ;
+}
+#header h2{
+    font-size: 2rem;
+    margin-bottom: px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: gabriola;
+    letter-spacing: 0.2rem;
+    color: rgb(252, 212, 218);
+}
+#header h3{
+    margin-top: 10px;
+    padding-top: 30px;
+    font-size: 12px;
+}
+#header h4{
+    padding-bottom: 10px;
+}
+#header .nav-bar{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;    
+}
+#header .nav-list ul{
+    list-style: none;
+    position: absolute;
+    height: 70vh;
+    width: 80vw;
+    right: 100%;
+    top: 0;
+    align-items: center;
+    background-color: rgb(237, 50, 150);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .5s ease;
+}
+#header .nav-list ul.open{
+    right: 20%;
+}
+#header .menu{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+#header .name{
+    background-color: ;
+    position: relative;
+}
+#header .menu-btn{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    background: ;
+    color: ;
+    /*border: 3px solid pink ;*/
+    border-radius: 30%;
+    position: relative;
+    transition: all .5s ease-in-out;
+    display: flex;
+    margin-right: 300px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    transform: scale(.6);
+}
+#header .menu-btn_burger{
+    height: 5px;
+    width: 50px;
+    background: rgb(153, 17, 85);
+    position: relative;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+    
+    
+}
+#header .menu-btn_burger::before,
+#header .menu-btn_burger::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background: rgb(153, 17, 85);
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+/*header
+#header .burger {  
+    left: 0;
+    top: 0;
+    weight: 100vw;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    overflow-x: hidden;
+}*/
+#header .menu-btn_burger::before{
+    transform: translateY(-16px);
+}
+#header .menu-btn_burger::after{
+    transform: translateY(16px);
+}
+/*ANIMATION*/
+#header .menu-btn.open .menu-btn_burger{
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+#header .menu-btn.open .menu-btn_burger::before{
+    transform: rotate(45deg) translate(35px, -35px);
+}
+#header .menu-btn.open .menu-btn_burger::after{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+/*END ANIMATION*/
+/*End header section*/
+
+/*Main section*/
+
+#main .main{
+    background-color: rgb(196, 14, 111);
+    color: pink;
+    height: 630vh; 
+    font-family: gabriola;   
+}
+
+#main h1{
+    margin-left: px;
+    text-decoration: underline;
+    text-align: justify;
+    font-family: ;
+    font-size: 19px;
+}
+#main h2{
+    padding-bottom: px;
+    color: black;
+}
+#main p{
+    font-size: 1.4em;
+}
+#main h3{
+    letter-spacing: .2rem;
+    padding-top: 160px;
+    font-size: 1.6rem;
+}
+#main h6{
+    font-size: 2rem;
+    color: black;
+}
+/*End main section*/
