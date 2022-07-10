@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+
+html{
+    font-family: 'Charmonman', cursive;
+    font-size: ;
+    font-weight: 500;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -51,7 +60,7 @@
 }
 #header .brand h1{
     margin-left: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
     font-size: ;
 }
 #header h2{
@@ -60,7 +69,7 @@
     padding-bottom: 50px;
     padding-top: 50px;
     margin-left: 30px;
-    font-family: 'Gills Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-family: 'Gills Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
     letter-spacing: 0.2rem;
     color: rgb(252, 212, 218);
 }
@@ -190,7 +199,7 @@
     color: pink;
     font-size: 10px;
     height: 420vh; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/   
 }
 
 #main h1{
